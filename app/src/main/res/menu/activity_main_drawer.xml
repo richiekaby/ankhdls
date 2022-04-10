@@ -18,10 +18,8 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Old Fashioned Pies" />
-    </group>
-    <item
-        android:title="Order Form, Pricing"/>
-    <group>
+
+
         <item
             android:icon="@drawable/globe"
             android:title="Old Fashioned Pies" />
@@ -34,20 +32,28 @@
         <item
             android:icon="@drawable/globe"
             android:title="Bars, Candy, Breads &amp; More " />
+    </group>
 
+    <group>
         <item
+            android:title="Order Form, Pricing"/>
+        <item
+            android:id="@+id/spbWebsite"
             android:icon="@drawable/globe"
             android:title="S.P.B Website " />
 
         <item
+            android:id="@+id/viewPricing"
             android:icon="@drawable/globe"
             android:title="View Pricing " />
 
         <item
+            android:id="@+id/onlineOrderForm"
             android:icon="@drawable/globe"
             android:title="Online Order Form  " />
 
         <item
+            android:id="@+id/meetSugarPie"
             android:icon="@drawable/globe"
             android:title="Meet Sugar Pie " />
     </group>
@@ -55,6 +61,7 @@
         android:title="Questions? Let Us Know!"/>
             <group>
         <item
+            android:id="@+id/infoOrder"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Info " />
             </group>
