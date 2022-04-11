@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="0dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_margin="1dp"
+        android:layout_height="180dp">
+        <ImageView
+            android:id="@+id/ivPie"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_width="0dp"
+            android:src="@drawable/sweet_potato_pie_ps"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@color/faded_black"
+            android:textColor="@color/white"
+            android:orientation="vertical"
+            android:layout_height="70dp"
+            >
+            <TextView
+                android:id="@+id/tvNamePie"
+                android:layout_width="wrap_content"
+                android:text="Name"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/tvDescie"
+                android:layout_width="wrap_content"
+                android:text="Name"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/gray"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

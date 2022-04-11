@@ -1,4 +1,4 @@
-package net.larntech.ankhdls
+package net.larntech.ankhdls.ui.webview
 
 import android.R
 import android.os.Bundle

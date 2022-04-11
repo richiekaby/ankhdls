@@ -6,14 +6,28 @@
         <entry key="app/src/main/res/drawable/round_bg_yellow.xml" value="0.106" />
         <entry key="app/src/main/res/drawable/round_black_btn.xml" value="0.236" />
         <entry key="app/src/main/res/drawable/round_btn.xml" value="0.106" />
+        <entry key="app/src/main/res/layout/activity_bar_gallery.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout/activity_gallery.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/activity_info.xml" value="0.3640625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2861111111111111" />
         <entry key="app/src/main/res/layout/activity_webview.xml" value="0.2861111111111111" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.15555555555555556" />
+        <entry key="app/src/main/res/layout/frag_bars.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout/frag_delicious_cake.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/frag_fashioned.xml" value="0.3645833333333333" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.2861111111111111" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout/image_fullscreen_preview.xml" value="0.1921875" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.19166666666666668" />
+        <entry key="app/src/main/res/layout/row_bars.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout/row_delicious.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/row_fashioned.xml" value="0.3645833333333333" />
+        <entry key="app/src/main/res/layout/row_gridview.xml" value="0.2861111111111111" />
         <entry key="app/src/main/res/layout/row_main_galley.xml" value="0.2861111111111111" />
         <entry key="app/src/main/res/layout/row_main_order_galley.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout/row_pie.xml" value="0.2861111111111111" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.35846153846153844" />
         <entry key="app/src/main/res/menu/main.xml" value="0.2861111111111111" />
       </map>

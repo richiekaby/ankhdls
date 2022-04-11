@@ -15,21 +15,20 @@
             android:title="Come On In!" />
 
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_old_fashion"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Old Fashioned Pies" />
 
 
-        <item
-            android:icon="@drawable/globe"
-            android:title="Old Fashioned Pies" />
 
         <item
+            android:id="@+id/nav_delicious_cake"
             android:icon="@drawable/globe"
             android:title="Delicious Cakes" />
 
 
         <item
+            android:id="@+id/nav_bars"
             android:icon="@drawable/globe"
             android:title="Bars, Candy, Breads &amp; More " />
     </group>
@@ -38,22 +37,26 @@
         <item
             android:title="Order Form, Pricing"/>
         <item
-            android:id="@+id/spbWebsite"
+            android:id="@+id/nav_website"
             android:icon="@drawable/globe"
             android:title="S.P.B Website " />
 
         <item
-            android:id="@+id/viewPricing"
+            android:id="@+id/nav_view_pricing"
             android:icon="@drawable/globe"
             android:title="View Pricing " />
 
         <item
-            android:id="@+id/onlineOrderForm"
+            android:id="@+id/nav_online_order_form"
             android:icon="@drawable/globe"
             android:title="Online Order Form  " />
+        <item
+            android:id="@+id/nav_on_fb"
+            android:icon="@drawable/globe"
+            android:title="S.P.B on Facebook " />
 
         <item
-            android:id="@+id/meetSugarPie"
+            android:id="@+id/nav_meet_sugar_pie"
             android:icon="@drawable/globe"
             android:title="Meet Sugar Pie " />
     </group>
@@ -61,7 +64,7 @@
         android:title="Questions? Let Us Know!"/>
             <group>
         <item
-            android:id="@+id/infoOrder"
+            android:id="@+id/nav_info"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Info " />
             </group>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.larntech.ankhdls">
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,9 +12,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ankhdls">
         <activity
-            android:name=".WebviewActivity"
-            android:theme="@style/Theme.Ankhdls.NoActionBar"
+            android:name=".ui.view_gallery.BarGalleryActivity"
             android:exported="false" />
+        <activity
+            android:name=".ui.view_gallery.GalleryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ankhdls.NoActionBar" />
+        <activity
+            android:name=".ui.info.InfoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ankhdls.NoActionBar" />
+        <activity
+            android:name=".ui.bars.BarActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ankhdls.NoActionBar" />
+        <activity
+            android:name=".ui.delicious.DeliciousActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ankhdls.NoActionBar" />
+        <activity
+            android:name=".ui.fashioned.FashionedPieActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ankhdls.NoActionBar" />
+        <activity
+            android:name=".ui.webview.WebviewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ankhdls.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

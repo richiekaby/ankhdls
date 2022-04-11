@@ -16,6 +16,7 @@
     app:layout_constraintTop_toTopOf="parent"
     app:layout_constraintBottom_toTopOf="@+id/tvName"
     android:src="@drawable/allpies"
+    android:scaleType="fitXY"
     android:layout_height="210dp"/>
 
     <TextView

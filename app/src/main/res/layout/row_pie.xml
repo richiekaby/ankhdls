@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="0dp"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_margin="1dp"
+        android:layout_height="180dp">
+        <ImageView
+            android:id="@+id/ivPie"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_width="0dp"
+            android:src="@drawable/sweet_potato_pie_ps"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            />
+        <TextView
+            android:id="@+id/tvNamePie"
+            android:layout_width="0dp"
+            android:text="Name"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="18sp"
+            android:background="@color/faded_black"
+            android:textColor="@color/white"
+            android:layout_height="50dp"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

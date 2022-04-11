@@ -16,9 +16,129 @@
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="net.larntech.ankhdls.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+
+    <activity
+        android:id="@+id/nav_old_fashion"
+        android:name="net.larntech.ankhdls.ui.fashioned.FashionedPieActivity"
+        android:label="OLD Fashioned Pies"
+        tools:layout="@layout/frag_fashioned" />
+
+    <activity
+        android:id="@+id/nav_delicious_cake"
+        android:name="net.larntech.ankhdls.ui.delicious.DeliciousActivity"
+        android:label="Delicious Cakes"
+        tools:layout="@layout/frag_delicious_cake" />
+
+
+    <activity
+        android:id="@+id/nav_bars"
+        android:name="net.larntech.ankhdls.ui.bars.BarActivity"
+        android:label="Bars, Candy, Breads &amp; More"
+        tools:layout="@layout/frag_bars" />
+
+
+    <activity
+        android:id="@+id/nav_website"
+        android:name="net.larntech.ankhdls.ui.webview.WebviewActivity"
+        android:label="S.P.B. Website"
+        tools:layout="@layout/activity_webview" >
+
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="https://lolassugarpiebakery.com/" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="S.P.B. Website" />
+
+
+    </activity>
+
+    <activity
+        android:id="@+id/nav_view_pricing"
+        android:name="net.larntech.ankhdls.ui.webview.WebviewActivity"
+        android:label="View Pricing"
+        tools:layout="@layout/activity_webview" >
+
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="https://lolassugarpiebakery.com/goodies" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="View Pricing" />
+
+
+    </activity>
+
+
+    <activity
+        android:id="@+id/nav_online_order_form"
+        android:name="net.larntech.ankhdls.ui.webview.WebviewActivity"
+        android:label="Online Order Form"
+        tools:layout="@layout/activity_webview" >
+
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="https://lolassugarpiebakery.com/#contact-section" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="Online Order Form" />
+
+
+    </activity>
+
+
+    <activity
+        android:id="@+id/nav_on_fb"
+        android:name="net.larntech.ankhdls.ui.webview.WebviewActivity"
+        android:label="S.P.B on Facebook"
+        tools:layout="@layout/activity_webview" >
+
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="https://facebook.com/lolassugarpiebakery.com/" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="S.P.B on Facebook" />
+
+
+    </activity>
+
+
+
+    <activity
+        android:id="@+id/nav_meet_sugar_pie"
+        android:name="net.larntech.ankhdls.ui.webview.WebviewActivity"
+        android:label="Meet Sugar Pie"
+        tools:layout="@layout/activity_webview" >
+
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="https://lolassugarpiebakery.com/stories" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="Meet Sugar Pie" />
+
+
+    </activity>
+
+
+    <activity
+        android:id="@+id/nav_info"
+        android:name="net.larntech.ankhdls.ui.info.InfoActivity"
+        android:label="Info"
+        tools:layout="@layout/activity_webview" />
+
+
+
+
 </navigation>

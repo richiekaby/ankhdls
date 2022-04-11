@@ -9,9 +9,9 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
 import net.larntech.ankhdls.databinding.ActivityMainBinding
+import net.larntech.ankhdls.ui.webview.WebviewActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -33,7 +33,9 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_old_fashion, R.id.nav_delicious_cake, R.id.nav_bars,
+                R.id.nav_website, R.id.nav_view_pricing, R.id.nav_online_order_form,
+                R.id.nav_on_fb, R.id.nav_meet_sugar_pie
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -48,18 +50,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private val selectedListener =
-        NavigationView.OnNavigationItemSelectedListener { menuItem ->
-            when (menuItem.itemId) {
-
-                R.id.spbWebsite -> {
-                    viewData("https://lolassugarpiebakery.com/","S.P.B Website")
-                    return@OnNavigationItemSelectedListener true
-                }
-
-            }
-            false
-        }
 
 
     private fun viewData(url: String, title: String){

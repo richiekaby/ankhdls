@@ -11,8 +11,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import net.larntech.ankhdls.R
-import net.larntech.ankhdls.WebviewActivity
+import net.larntech.ankhdls.ui.webview.WebviewActivity
 import net.larntech.ankhdls.databinding.FragmentGalleryBinding
+import net.larntech.ankhdls.ui.info.InfoActivity
+import net.larntech.ankhdls.ui.bars.BarActivity
+import net.larntech.ankhdls.ui.delicious.DeliciousActivity
+import net.larntech.ankhdls.ui.fashioned.FashionedPieActivity
 
 class GalleryFragment : Fragment(), PieAdapter.ClickedPieListener, OrderAdapter.ClickedBarListener {
 
@@ -93,13 +97,26 @@ class GalleryFragment : Fragment(), PieAdapter.ClickedPieListener, OrderAdapter.
         }
 
         binding.llInfo.setOnClickListener {
-            showMessage("Work on progress")
+            startActivity(Intent(requireContext(), InfoActivity::class.java));
 
         }
     }
 
     override fun PieClicked(pie: PieModel) {
-        showMessage("Work on progress")
+        when(pie.text){
+            "Old Fashioned Pies"->{
+                startActivity(Intent(requireContext(), FashionedPieActivity::class.java))
+
+            }
+            "Delicious Cakes"->{
+                startActivity(Intent(requireContext(), DeliciousActivity::class.java))
+
+            }
+            "Bars, Candy, Breads & More"->{
+                startActivity(Intent(requireContext(), BarActivity::class.java))
+
+            }
+        }
 
     }
 
